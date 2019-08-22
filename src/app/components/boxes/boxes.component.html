@@ -1,0 +1,3 @@
+<div *ngFor="let name of names; let i = index" (click)="nameClicked(name)" class="name">
+   <b>{{i+1}}</b> {{name.value}}
+</div>

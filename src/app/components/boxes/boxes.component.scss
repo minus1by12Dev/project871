@@ -1,0 +1,22 @@
+div.name {
+    display: inline-block;
+
+    margin: 0.2rem 0.5rem 0.2rem 0rem;
+    padding: 1.5rem;
+
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+
+    border: 0.1rem solid;
+    
+    text-transform: capitalize;
+
+    cursor: pointer;
+
+    &:hover {
+        color: #d1ecf1;
+        background-color: #0c5460;
+        border-color: #0c5460;
+    }
+}
